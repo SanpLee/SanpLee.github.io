@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>JavaScript面试题 | 寒号鸟</title>
+    <meta name="generator" content="VuePress 1.8.2">
+    <link rel="icon" href="/img/logo.png">
+    <meta name="description" content="Just playing around">
+    
+    <link rel="preload" href="/assets/css/0.styles.495d9abf.css" as="style"><link rel="preload" href="/assets/js/app.7fb92e91.js" as="script"><link rel="preload" href="/assets/js/2.c76cd218.js" as="script"><link rel="preload" href="/assets/js/17.029e3f4d.js" as="script"><link rel="prefetch" href="/assets/js/10.4b978dac.js"><link rel="prefetch" href="/assets/js/11.3a350ece.js"><link rel="prefetch" href="/assets/js/12.9fd62e17.js"><link rel="prefetch" href="/assets/js/13.82566644.js"><link rel="prefetch" href="/assets/js/14.b30c5248.js"><link rel="prefetch" href="/assets/js/15.314525f1.js"><link rel="prefetch" href="/assets/js/16.f4b6b34b.js"><link rel="prefetch" href="/assets/js/18.18cba588.js"><link rel="prefetch" href="/assets/js/19.fc6dd543.js"><link rel="prefetch" href="/assets/js/20.8a07ef89.js"><link rel="prefetch" href="/assets/js/21.dd6d5601.js"><link rel="prefetch" href="/assets/js/22.bdfac4b8.js"><link rel="prefetch" href="/assets/js/23.cb3ce187.js"><link rel="prefetch" href="/assets/js/24.b4dcc0a7.js"><link rel="prefetch" href="/assets/js/25.1dfb4656.js"><link rel="prefetch" href="/assets/js/26.7641255c.js"><link rel="prefetch" href="/assets/js/27.a96ca336.js"><link rel="prefetch" href="/assets/js/28.27fa552c.js"><link rel="prefetch" href="/assets/js/29.44ce16c4.js"><link rel="prefetch" href="/assets/js/3.ea61ef04.js"><link rel="prefetch" href="/assets/js/30.b6ac1c50.js"><link rel="prefetch" href="/assets/js/31.91849380.js"><link rel="prefetch" href="/assets/js/32.e284d7d9.js"><link rel="prefetch" href="/assets/js/33.7a93180a.js"><link rel="prefetch" href="/assets/js/34.5dda5a12.js"><link rel="prefetch" href="/assets/js/4.b376206f.js"><link rel="prefetch" href="/assets/js/5.7ed89ec0.js"><link rel="prefetch" href="/assets/js/6.47ea38ab.js"><link rel="prefetch" href="/assets/js/7.3466c3e2.js"><link rel="prefetch" href="/assets/js/8.b9bcbd6a.js"><link rel="prefetch" href="/assets/js/9.b763de54.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.495d9abf.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><img src="/img/logo.png" alt="寒号鸟" class="logo"> <span class="site-name can-hide">寒号鸟</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/" class="nav-link">
+  Home
+</a></div><div class="nav-item"><a href="/notes/" class="nav-link">
+  Notes
+</a></div><div class="nav-item"><a href="/interviewQuestion/" class="nav-link router-link-active">
+  Interview
+</a></div><div class="nav-item"><a href="/AppServer/" class="nav-link">
+  AppServer
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Vue Menu" class="dropdown-title"><span class="title">Vue</span> <span class="arrow down"></span></button> <button type="button" aria-label="Vue Menu" class="mobile-dropdown-title"><span class="title">Vue</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/vue/v2/" class="nav-link">
+  vue2
+</a></li><li class="dropdown-item"><!----> <a href="/vue/v3/" class="nav-link">
+  vue3
+</a></li></ul></div></div><div class="nav-item"><a href="/article/" class="nav-link">
+  Article
+</a></div><div class="nav-item"><a href="/node/" class="nav-link">
+  Node
+</a></div><div class="nav-item"><a href="/tools/" class="nav-link">
+  Tools
+</a></div><div class="nav-item"><a href="/external/" class="nav-link">
+  External
+</a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/" class="nav-link">
+  Home
+</a></div><div class="nav-item"><a href="/notes/" class="nav-link">
+  Notes
+</a></div><div class="nav-item"><a href="/interviewQuestion/" class="nav-link router-link-active">
+  Interview
+</a></div><div class="nav-item"><a href="/AppServer/" class="nav-link">
+  AppServer
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Vue Menu" class="dropdown-title"><span class="title">Vue</span> <span class="arrow down"></span></button> <button type="button" aria-label="Vue Menu" class="mobile-dropdown-title"><span class="title">Vue</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/vue/v2/" class="nav-link">
+  vue2
+</a></li><li class="dropdown-item"><!----> <a href="/vue/v3/" class="nav-link">
+  vue3
+</a></li></ul></div></div><div class="nav-item"><a href="/article/" class="nav-link">
+  Article
+</a></div><div class="nav-item"><a href="/node/" class="nav-link">
+  Node
+</a></div><div class="nav-item"><a href="/tools/" class="nav-link">
+  Tools
+</a></div><div class="nav-item"><a href="/external/" class="nav-link">
+  External
+</a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>JavaScript面试题</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/interviewQuestion/javascript.html#_1-什么是闭包" class="sidebar-link">1. 什么是闭包?</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/interviewQuestion/javascript.html#_2-手写选择排序和冒泡排序" class="sidebar-link">2. 手写选择排序和冒泡排序</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/interviewQuestion/javascript.html#_3-数组去重和反转数组" class="sidebar-link">3.数组去重和反转数组</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/interviewQuestion/javascript.html#_4-函数防抖和节流" class="sidebar-link">4.函数防抖和节流</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/interviewQuestion/javascript.html#_5-深拷贝和浅拷贝" class="sidebar-link">5.深拷贝和浅拷贝</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/interviewQuestion/javascript.html#_6-结果是什么-为什么" class="sidebar-link">6.[] == ![]结果是什么？为什么</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/interviewQuestion/javascript.html#_7-如何让if-a-1-a-2-条件成立" class="sidebar-link">7.如何让if(a == 1 &amp;&amp; a == 2) 条件成立</a><ul class="sidebar-sub-headers"></ul></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="javascript面试题"><a href="#javascript面试题" class="header-anchor">#</a> JavaScript面试题</h1> <h2 id="_1-什么是闭包"><a href="#_1-什么是闭包" class="header-anchor">#</a> 1. 什么是闭包?</h2> <ul><li>闭包的实质是因为函数嵌套而形成的作用域链</li></ul> <p>比如说：函数 A 内部有一个函数 B，函数 B 可以访问到函数 A 中的变量，那么函数 B 就是闭包</p> <div class="language- extra-class"><pre><code>- 用途：使用闭包主要是为了设计私有的方法和变量
+- 优点：可以避免变量被全局变量污染
+- 缺点：函数中的变量都被保存在内存中，内存消耗很大，所以不能滥用闭包
+- 解决方法：在退出函数之前，将不使用的局部变量全部删除
+</code></pre></div><h2 id="_2-手写选择排序和冒泡排序"><a href="#_2-手写选择排序和冒泡排序" class="header-anchor">#</a> 2. 手写选择排序和冒泡排序</h2> <ul><li>选择排序</li></ul> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">let</span> arr <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token number">3</span><span class="token punctuation">,</span> <span class="token number">4</span><span class="token punctuation">,</span> <span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+<span class="token keyword">let</span> len <span class="token operator">=</span> arr<span class="token punctuation">.</span>length<span class="token punctuation">;</span>
+<span class="token comment">//这里之所以是len-1，是因为到最后两个元素，交换位置，整个数组就已经排好序了</span>
+<span class="token keyword">for</span><span class="token punctuation">(</span><span class="token keyword">let</span> i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> i <span class="token operator">&lt;</span> len <span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+   <span class="token keyword">let</span> min <span class="token operator">=</span> arr<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">;</span>
+   <span class="token comment">//j = i +1 是把与自己比较的情况给省略掉</span>
+   <span class="token keyword">for</span><span class="token punctuation">(</span><span class="token keyword">let</span> j <span class="token operator">=</span> i <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">;</span> j <span class="token operator">&lt;</span> len<span class="token punctuation">;</span> j<span class="token operator">++</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+       <span class="token keyword">if</span><span class="token punctuation">(</span>arr<span class="token punctuation">[</span>j<span class="token punctuation">]</span> <span class="token operator">&lt;</span> min<span class="token punctuation">)</span><span class="token punctuation">{</span>
+           <span class="token comment">//利用es6数组的解构赋值交换数据</span>
+           <span class="token punctuation">[</span>arr<span class="token punctuation">[</span>j<span class="token punctuation">]</span><span class="token punctuation">,</span> min<span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token punctuation">[</span>min<span class="token punctuation">,</span> arr<span class="token punctuation">[</span>j<span class="token punctuation">]</span><span class="token punctuation">]</span>
+       <span class="token punctuation">}</span>
+   <span class="token punctuation">}</span>
+   arr<span class="token punctuation">[</span>i<span class="token punctuation">]</span> <span class="token operator">=</span> min<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>arr<span class="token punctuation">)</span> <span class="token comment">// [ 1, 2, 3, 4 ]</span>
+</code></pre></div><ul><li>冒泡排序</li></ul> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">let</span> arr <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token number">3</span><span class="token punctuation">,</span> <span class="token number">4</span><span class="token punctuation">,</span> <span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+<span class="token keyword">let</span> max <span class="token operator">=</span> arr<span class="token punctuation">.</span>length <span class="token operator">-</span> <span class="token number">1</span><span class="token punctuation">;</span>
+<span class="token keyword">for</span><span class="token punctuation">(</span><span class="token keyword">let</span> i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> i <span class="token operator">&lt;</span> max<span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+   <span class="token comment">// 声明一个变量，作为标志位</span>
+   <span class="token comment">// 如果某次循环完后，没有任何两数进行交换，就将标志位设置为 true，表示排序完成</span>
+   <span class="token keyword">let</span> flag <span class="token operator">=</span> <span class="token boolean">true</span><span class="token punctuation">;</span>
+   <span class="token keyword">for</span><span class="token punctuation">(</span><span class="token keyword">let</span> j <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> j <span class="token operator">&lt;</span> max <span class="token operator">-</span> i<span class="token punctuation">;</span> j<span class="token operator">++</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+       <span class="token keyword">if</span><span class="token punctuation">(</span>arr<span class="token punctuation">[</span>j<span class="token punctuation">]</span> <span class="token operator">&gt;</span> arr<span class="token punctuation">[</span>j <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+           <span class="token comment">// 利用ES6数组的解构赋值交换数据</span>
+           <span class="token punctuation">[</span>arr<span class="token punctuation">[</span>j<span class="token punctuation">]</span><span class="token punctuation">,</span> arr<span class="token punctuation">[</span>j <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token punctuation">[</span>arr<span class="token punctuation">[</span>j <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">,</span> arr<span class="token punctuation">[</span>j<span class="token punctuation">]</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+           flag <span class="token operator">=</span> <span class="token boolean">false</span><span class="token punctuation">;</span>
+       <span class="token punctuation">}</span>
+   <span class="token punctuation">}</span>
+   <span class="token keyword">if</span><span class="token punctuation">(</span>flag<span class="token punctuation">)</span><span class="token punctuation">{</span>
+       <span class="token keyword">break</span><span class="token punctuation">;</span>
+   <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>arr<span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre></div><h2 id="_3-数组去重和反转数组"><a href="#_3-数组去重和反转数组" class="header-anchor">#</a> 3.数组去重和反转数组</h2> <ul><li>数组去重</li></ul> <p>方法一<br>
+扩展运算符和Set结构相结合，就可以去除数组的重复成员</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token punctuation">[</span><span class="token operator">...</span><span class="token keyword">new</span> <span class="token class-name">Set</span><span class="token punctuation">(</span><span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">,</span> <span class="token number">3</span><span class="token punctuation">,</span> <span class="token number">4</span><span class="token punctuation">,</span> <span class="token number">5</span><span class="token punctuation">,</span> <span class="token number">5</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">]</span>
+<span class="token comment">// [1, 2, 3, 4, 5]</span>
+</code></pre></div><p>方法二<br>
+Array.from()能把set结构转换为数组</p> <div class="language-js extra-class"><pre class="language-js"><code>Array<span class="token punctuation">.</span><span class="token function">from</span><span class="token punctuation">(</span><span class="token keyword">new</span> <span class="token class-name">Set</span><span class="token punctuation">(</span><span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">,</span> <span class="token number">3</span><span class="token punctuation">,</span> <span class="token number">4</span><span class="token punctuation">,</span> <span class="token number">5</span><span class="token punctuation">,</span> <span class="token number">5</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+<span class="token comment">// [1, 2, 3, 4, 5]</span>
+</code></pre></div><p>方法三 （ES5）</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">function</span> <span class="token function">arrayToHeavy</span><span class="token punctuation">(</span><span class="token parameter">arr</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+   <span class="token keyword">let</span> temp <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+   arr<span class="token punctuation">.</span><span class="token function">forEach</span><span class="token punctuation">(</span><span class="token parameter">e</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+       <span class="token keyword">if</span><span class="token punctuation">(</span>temp<span class="token punctuation">.</span><span class="token function">indexOf</span><span class="token punctuation">(</span>e<span class="token punctuation">)</span> <span class="token operator">==</span> <span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+           temp<span class="token punctuation">.</span><span class="token function">push</span><span class="token punctuation">(</span>e<span class="token punctuation">)</span><span class="token punctuation">;</span>
+       <span class="token punctuation">}</span>
+   <span class="token punctuation">}</span><span class="token punctuation">)</span>
+   <span class="token keyword">return</span> temp<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div><ul><li>反转数组<br>
+要求<br>
+输入: I am a student 输出: student a am I<br>
+输入是数组 输出也是数组 不允许用 split splice reverse</li></ul> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">function</span> <span class="token function">reverseArray</span><span class="token punctuation">(</span><span class="token parameter">arr</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+   <span class="token keyword">let</span> result <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+   <span class="token keyword">let</span> len <span class="token operator">=</span> arr<span class="token punctuation">.</span>length <span class="token operator">-</span> <span class="token number">1</span><span class="token punctuation">;</span>
+   <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">let</span> i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> i <span class="token operator">&lt;=</span> len<span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+       result<span class="token punctuation">[</span>i<span class="token punctuation">]</span> <span class="token operator">=</span> arr<span class="token punctuation">[</span>len <span class="token operator">-</span>i<span class="token punctuation">]</span><span class="token punctuation">;</span>
+   <span class="token punctuation">}</span>
+   <span class="token keyword">return</span> result<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token function">reverseArray</span><span class="token punctuation">(</span><span class="token punctuation">[</span><span class="token string">'I'</span><span class="token punctuation">,</span> <span class="token string">'am'</span><span class="token punctuation">,</span> <span class="token string">'a'</span><span class="token punctuation">,</span> <span class="token string">'student'</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+<span class="token comment">// [&quot;student&quot;, &quot;a&quot;, &quot;am&quot;, &quot;I&quot;]</span>
+</code></pre></div><h2 id="_4-函数防抖和节流"><a href="#_4-函数防抖和节流" class="header-anchor">#</a> 4.函数防抖和节流</h2> <ul><li>函数防抖和节流是优化高频率执行js代码的一种手段
+<ul><li>节流：可以减少高频调用函数的执行次数</li> <li>防抖：可以让被调用的函数在一次连续的高频操作中只被调用一次</li></ul></li></ul> <p>作用：减少代码执行次数，提升网页性能</p> <h2 id="_5-深拷贝和浅拷贝"><a href="#_5-深拷贝和浅拷贝" class="header-anchor">#</a> 5.深拷贝和浅拷贝</h2> <ul><li><p>深拷贝</p> <ul><li>修改新变量的值不会影响原有变量的值</li> <li>默认情况下基本数据类型都是深拷贝</li></ul></li> <li><p>浅拷贝</p> <ul><li>修改新变量的值会影响原有变量的值</li> <li>默认情况下引用类型都是浅拷贝</li></ul></li></ul> <h2 id="_6-结果是什么-为什么"><a href="#_6-结果是什么-为什么" class="header-anchor">#</a> 6.[] == ![]结果是什么？为什么</h2> <p>==中，左右两边都需要转换为数字然后进行比较。
+[]转换数字为0。
+![]首先是转换为布尔值，由于[]作为一个引用类型转换为布尔值为true，因此![]为false，进而在转换成数字，变为0。 0 == 0，结果为true</p> <h2 id="_7-如何让if-a-1-a-2-条件成立"><a href="#_7-如何让if-a-1-a-2-条件成立" class="header-anchor">#</a> 7.如何让if(a == 1 &amp;&amp; a == 2) 条件成立</h2> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">var</span> a <span class="token operator">=</span> <span class="token punctuation">{</span>
+  value<span class="token operator">:</span> <span class="token number">0</span><span class="token punctuation">,</span>
+  <span class="token function-variable function">valueOf</span><span class="token operator">:</span><span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span>value <span class="token operator">++</span>
+    <span class="token keyword">return</span> <span class="token keyword">this</span><span class="token punctuation">.</span>value
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>a <span class="token operator">==</span> <span class="token number">1</span> <span class="token operator">&amp;&amp;</span> a <span class="token operator">==</span> <span class="token number">2</span><span class="token punctuation">)</span> <span class="token comment">//true</span>
+</code></pre></div></div> <footer class="page-edit"><!----> <div class="last-updated"><span class="prefix">Last Updated:</span> <span class="time">7/9/2021, 3:49:13 PM</span></div></footer> <!----> </main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.7fb92e91.js" defer></script><script src="/assets/js/2.c76cd218.js" defer></script><script src="/assets/js/17.029e3f4d.js" defer></script>
+  </body>
+</html>
